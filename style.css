@@ -1,0 +1,942 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.search-img-bg {
+    background-image: url('images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo-navbar {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+    border-bottom: solid 1px gray;
+}
+
+.logo-navbar img {
+    width: 20%;
+    height: 20%;
+}
+
+.logo-navbar ul {
+    display: flex;
+    align-items: center;
+}
+
+.logo-navbar ul li {
+    list-style: none;
+}
+
+.logo-navbar ul li a {
+    text-decoration: none;
+    margin: 0 30px;
+    color: #ACAFB8;
+}
+
+.login-btn {
+    background-color: #0432DF;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.search-bar {
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 130px;
+}
+
+.search-bar h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.search-bar p {
+    color: #ACAFB8;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.search-bar input {
+    padding: 20px 550px 20px 40px;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+}
+
+.search-icon {
+    /* position: relative; */
+    margin: 0;
+}
+
+.search-bar span {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.underline-sentence {
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.below-search {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    margin-right: 340px;
+}
+
+.material-icons {
+    color: gray;
+}
+
+.youtubers {
+    margin: 10px 70px;
+}
+
+.youtubers h1 {
+    text-align: center;
+    color: black;
+}
+
+.youtubers-logo .netflix {
+    height: 30px;
+}
+
+.youtubers .pixar {
+    height: 30px;
+}
+
+.youtubers-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.youtubers img {
+    margin-top: 50px;
+
+}
+
+.heading-options {
+    color: black;
+}
+
+.heading-options h1 {
+    margin-left: 147px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.heading-options ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.heading-options ul li {
+    margin-left: 50px;
+    color: rgb(133, 133, 133);
+    transition: 0.2s ease;
+}
+
+.heading-options ul li:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.options-filter {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.options-filter img {
+    width: 20px;
+}
+
+.filter-icon {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e2e2e2;
+    width: 70px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.sound-names img {
+    width: 40px;
+    height: 40px;
+}
+
+.sound-names {
+    color: black;
+}
+
+.start-sound {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    margin: 50px 150px 0 150px;
+}
+
+.rest-all-sound {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    margin: 15px 150px 0 150px;
+}
+
+.last-sound {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    margin: 15px 150px 20px 150px;
+}
+
+.sound-names {
+    margin-bottom: 130px;
+}
+
+.sound-names a {
+    margin-left: 150px;
+    color: #0432DF;
+}
+
+.category-songs h1 {
+    color: black;
+    margin: 30px 150px;
+}
+
+.first-six-categories {
+    margin: 10px 150px;
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+
+.musical {
+    position: relative;
+}
+
+.musical-text {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: white;
+    font-size: 14px;
+}
+
+.industrial {
+    position: relative;
+}
+
+.industrial-text {
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.movie-sounds {
+    position: relative;
+}
+
+.movie-sounds-text {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.animal {
+    position: relative;
+}
+
+.animal-text {
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.people {
+    position: relative;
+}
+
+.people-text {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.vehicles {
+    position: relative;
+}
+
+.vehicles-text {
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.last-six-categories {
+    margin: 0px 150px;
+    display: flex;
+    flex-basis: 30%;
+    justify-content: space-between;
+}
+
+.sound-designs {
+    position: relative;
+}
+
+.sound-designs-text {
+    position: absolute;
+    top: 50px;
+    left: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.emergency {
+    position: relative;
+}
+
+.emergency-text {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.bell {
+    position: relative;
+}
+
+.bell-text {
+    position: absolute;
+    top: 50px;
+    left: 69px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.nature {
+    position: relative;
+}
+
+.nature-text {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.cartoon {
+    position: relative;
+}
+
+.cartoon-text {
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.horror {
+    position: relative;
+}
+
+.horror-text {
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+.category-link {
+    margin-left: 150px;
+    color: #0432DF;
+}
+
+.why-us {
+    margin: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.why-us-heading strong {
+    color: #F59E00;
+}
+
+.why-us span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.royalty-proper-sounds {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+.royalty {
+    margin-right: 100px;
+}
+
+.royalty span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.proper-sound span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.download-sounds {
+    background-color: #0432DF;
+    background-size: cover;
+    height: 730px;
+    color: white;
+    text-align: center;
+}
+
+.application-boxes {
+    display: flex;
+    padding: 50px 280px;
+    justify-content: space-between;
+}
+
+.download-sounds h1 {
+    padding-top: 100px;
+}
+
+.application-boxes .basic-box {
+    position: relative;
+}
+
+.download-sounds .application-boxes .basic-box {
+    width: 334px;
+    height: 345px;
+    border: solid 1px #CDD6F9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.download-sounds .application-boxes .basic-box h1 {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.download-sounds .application-boxes .basic-box p {
+    text-align: left;
+}
+
+.download-sounds .application-boxes .basic-box .free-text {
+    font-weight: 500;
+    padding-top: 90px;
+}
+
+.download-sounds .application-boxes .basic-box a {
+    position: absolute;
+    background-color: #0432DF;
+    border: solid 2px #CDD6F9;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    left: 20px;
+}
+
+.application-boxes .premium-box {
+    position: relative;
+    background: #1B4BFF;
+}
+
+.download-sounds .application-boxes .premium-box {
+    width: 334px;
+    height: 345px;
+    border: solid 1px #CDD6F9;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.download-sounds .application-boxes .premium-box h1 {
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.download-sounds .application-boxes .premium-box p {
+    text-align: left;
+}
+
+.download-sounds .application-boxes .premium-box .start-12-text {
+    font-weight: 500;
+}
+
+.download-sounds .application-boxes .premium-box a {
+    position: absolute;
+    background-color: #ffffff;
+
+    color: #0432DF;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    left: 20px;
+}
+
+.testimonials {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.testimonials span {
+    color: #F59E00;
+    font-weight: 500;
+}
+
+.testimonials .testimonial-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+.testimonials .testimonial-boxes .testimonial-box-one {
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.testimonials .testimonial-boxes .testimonial-box-one h1 {
+    color: #F59E00;
+}
+
+.testimonials .testimonial-boxes .testimonial-box-one span {
+    color: rgb(146, 146, 146);
+}
+
+.testimonials .testimonial-boxes .testimonial-box-two {
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.testimonials .testimonial-boxes .testimonial-box-two h1 {
+    color: #F59E00;
+}
+
+.testimonials .testimonial-boxes .testimonial-box-two span {
+    color: rgb(146, 146, 146);
+}
+
+.testimonials .testimonial-boxes .testimonial-box-three {
+    border: solid 1px gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.testimonials .testimonial-boxes .testimonial-box-three h1 {
+    color: #F59E00;
+}
+
+.testimonials .testimonial-boxes .testimonial-box-three span {
+    color: rgb(146, 146, 146);
+}
+
+footer .bottom-logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bottom-logo img {
+    width: 30%;
+    height: 12%;
+}
+
+footer {
+    background-color: #020D37;
+    padding: 50px 70px;
+}
+
+footer .bottom-logo p {
+    color: #ACAFB8;
+    padding-top: 20px;
+}
+
+footer .bottom-logo ul li {
+    list-style: none;
+}
+
+footer .bottom-logo ul li a {
+    text-decoration: none;
+    color: #ACAFB8;
+}
+
+.container .search-img-bg .logo-navbar .menu-btn {
+    font-size: 22px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+
+#click {
+    display: none;
+}
+
+@media (max-width:786px) {
+    body {
+        margin: 0 auto;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .container .search-img-bg .logo-navbar .menu-btn {
+        display: block;
+        align-items: center;
+    }
+
+    .container .search-img-bg .logo-navbar img {
+        width: 50%;
+        height: 50%;
+    }
+
+    #click:checked~ul {
+        left: 0px;
+    }
+
+    .logo-navbar ul {
+        position: fixed;
+        top: 90px;
+        left: -100%;
+        display: block;
+        background: rgb(0, 0, 51);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .logo-navbar ul li {
+        margin: 50px 0px;
+    }
+
+    .container .search-img-bg {
+        background-image: url('images/mobile-header-bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .search-bar {
+        padding: 10px;
+    }
+
+    .search-bar p {
+        padding: 0 50px;
+        font-size: 18px;
+    }
+
+    .search-bar h1 {
+        padding: 90px 10px 10px 0px;
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .search-bar .search-icon {
+        margin: -20px;
+    }
+
+    .search-bar .search-icon .materials-icon {
+        top: 10px;
+        left: 37px;
+    }
+
+    .search-bar input[type="text"] {
+        padding: 10px 105px 10px 30px;
+    }
+
+    .search-bar .below-search .below-search-text{
+        font-size: 14px;
+        text-align: left;
+        font-family: poppins;
+        padding-left: 8%;
+    }
+    .youtubers {
+        padding-top: 30px;
+        margin: 0;
+    }
+
+    .youtubers h1 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .youtubers-logo {
+        margin: 0 10%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .sound-panel .heading-options h1 {
+        font-size: 27px;
+        margin: 60px 20px;
+        text-align: left;
+    }
+
+    .options-filter .filter-icon {
+        padding: 0;
+        width: 14%;
+        height: 7vh;
+        background: none;
+        align-items: center;
+        display: flex;
+    }
+
+    .options-filter {
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .options-filter ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .options-filter ul li {
+        margin: 10px;
+        font-size: 17px;
+    }
+
+    .options-filter ul li:nth-child(4) {
+        display: none;
+    }
+
+    .options-filter ul li:nth-child(5) {
+        display: none;
+    }
+
+    .options-filter ul li:nth-child(6) {
+        display: none;
+    }
+
+    .sound-names .start-sound {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .sound-names .rest-all-sound {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .sound-names .last-sound {
+        margin: 0;
+        padding: 5px;
+    }
+
+    .sound-names a {
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .sound-names {
+        margin: 5%;
+    }
+
+    .category-songs .category-link {
+        margin-left: 25px;
+    }
+
+    .category-songs h1 {
+        font-size: 25px;
+        margin: 60px 0px 10px 20px;
+    }
+
+    .category-songs .first-six-categories img {
+        width: 157px;
+        height: 14vh;
+        margin: 10px 0;
+    }
+
+    .category-songs .first-six-categories {
+        flex-wrap: wrap;
+        margin: 20px 20px 0px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .category-songs .last-six-categories img {
+        width: 157px;
+        height: 14vh;
+        margin: 10px 0;
+    }
+
+    .category-songs .last-six-categories {
+        flex-wrap: wrap;
+        margin: 0px 20px 10px 20px;
+    }
+
+    .why-us {
+        display: block;
+        margin: 90px 20px 10px 20px;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .why-us .why-us-heading strong {
+        font-size: 15px;
+    }
+
+    .why-us .why-us-heading h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    .royalty-proper-sounds {
+        display: block;
+        font-size: 20px;
+        margin: 10px 20px 10px 20px;
+        padding: 20px;
+    }
+
+    .download-sounds {
+        margin: 0;
+        background-color: #0432DF;
+        background-size: cover;
+        height: 1300px;
+        color: white;
+        text-align: center;
+    }
+
+    .download-sounds h1 {
+        font-size: 27px;
+    }
+
+    .download-sounds p {
+        padding: 20px;
+    }
+
+    .download-sounds .application-boxes {
+        display: block;
+        justify-content: space-between;
+        margin: 0;
+        padding: 9px;
+    }
+
+    .download-sounds .application-boxes .basic-box {
+        border: solid 1px #CDD6F9;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 50px;
+        width: 94%;
+    }
+
+    .download-sounds .application-boxes .premium-box {
+        border: solid 1px #CDD6F9;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 50px;
+        width: 94%;
+    }
+
+    .download-sounds .application-boxes .basic-box a {
+        position: unset;
+        margin-right: 200px;
+    }
+
+    .download-sounds .application-boxes .premium-box a {
+        position: unset;
+        margin-right: 200px;
+    }
+
+    .download-sounds .application-boxes .basic-box .free-text {
+        padding: 20px;
+    }
+
+    .testimonials span {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .testimonials h1 {
+        font-size: 27px;
+        padding: 20px;
+    }
+
+    .testimonials .testimonial-boxes .testimonial-box-one img {
+        margin-left: 37%;
+    }
+
+    .testimonials .testimonial-boxes .testimonial-box-two img {
+        margin-left: 37%;
+    }
+
+    .testimonials .testimonial-boxes .testimonial-box-three img {
+        margin-left: 37%;
+    }
+
+    .testimonials .testimonial-boxes {
+        margin: 20px;
+    }
+
+    .testimonials .testimonial-boxes .testimonial-box-one {
+        height: 380px;
+    }
+
+    .testimonials .testimonial-boxes .testimonial-box-two {
+        height: 380px;
+    }
+    .testimonials .testimonial-boxes .testimonial-box-three {
+        height: 380px;
+    }
+
+    footer {
+        padding: 20px 80px;
+    }
+
+    footer .bottom-logo {
+        flex-wrap: wrap;
+    }
+
+    footer .bottom-logo img {
+        width: 60%;
+    }
+    footer .bottom-logo ul {
+        margin: 40px 0 ;
+    }
+}
