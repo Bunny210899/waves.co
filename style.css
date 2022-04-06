@@ -705,7 +705,7 @@ footer .bottom-logo ul li a {
         font-size: 14px;
         text-align: left;
         font-family: poppins;
-        padding-left: 18px;
+        padding-left: 18%;
     }
     .youtubers {
         padding-top: 30px;
@@ -824,6 +824,7 @@ footer .bottom-logo ul li a {
     }
 
     .why-us {
+        text-align: ;
         display: block;
         margin: 90px 0px 0px 20px;
         font-size: 20px;
@@ -831,13 +832,13 @@ footer .bottom-logo ul li a {
     }
 
     .why-us .why-us-heading strong {
-        font-size: 15px;
-        
+        font-size: 20px;
+        margin-left: 34%;
     }
 
     .why-us .why-us-heading h1 {
         font-size: 25px;
-        text-align: left;
+        text-align: center;
     }
 
     .why-us .why-us-account {
