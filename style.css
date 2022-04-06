@@ -638,6 +638,10 @@ footer .bottom-logo ul li a {
         left: 0px;
     }
 
+    .logo-navbar {
+        padding: 2rem;
+    }
+
     .logo-navbar ul {
         position: fixed;
         top: 90px;
