@@ -639,7 +639,7 @@ footer .bottom-logo ul li a {
     }
 
     .logo-navbar {
-        padding: 2rem;
+        padding: 25px;
     }
 
     .logo-navbar ul {
@@ -670,7 +670,7 @@ footer .bottom-logo ul li a {
     }
 
     .search-bar {
-        padding: 10px 10px 50px 10px;
+        padding: 10px 0px 99px 0px;
     }
 
     .search-bar p {
@@ -679,7 +679,7 @@ footer .bottom-logo ul li a {
     }
 
     .search-bar h1 {
-        padding: 90px 10px 10px 0px;
+        padding: 90px 18px 10px 18px;
         font-size: 25px;
         margin-top: 0;
     }
@@ -705,7 +705,7 @@ footer .bottom-logo ul li a {
         font-size: 14px;
         text-align: left;
         font-family: poppins;
-        padding-left: 18%;
+        padding-left: 25px;
     }
     .youtubers {
         padding-top: 30px;
@@ -824,7 +824,7 @@ footer .bottom-logo ul li a {
     }
 
     .why-us {
-        text-align: ;
+        
         display: block;
         margin: 90px 0px 0px 20px;
         font-size: 20px;
@@ -880,8 +880,13 @@ footer .bottom-logo ul li a {
     .download-sounds .application-boxes {
         display: block;
         justify-content: space-between;
-        margin: 0;
-        padding: 9px;
+        align-items: center;
+        margin: 0 0 0 30px;
+        padding: 29px;
+    }
+
+    .download-sounds .application-boxes .basic-box h1 {
+        padding-left: 17px;
     }
 
     .download-sounds .application-boxes .basic-box {
@@ -889,25 +894,30 @@ footer .bottom-logo ul li a {
         border-radius: 10px;
         padding: 10px;
         margin-bottom: 50px;
-        width: 94%;
+        width: 89%;
+    }
+
+    .download-sounds .application-boxes .premium-box h1 {
+        padding-left: 17px;
+    }
     }
 
     .download-sounds .application-boxes .premium-box {
         border: solid 1px #CDD6F9;
         border-radius: 10px;
-        padding: 10px;
-        margin-bottom: 50px;
-        width: 94%;
+        padding: 20px 10px;
+        margin-bottom: 26px;
+        width: 89%;
     }
 
     .download-sounds .application-boxes .basic-box a {
         position: unset;
-        margin-right: 200px;
+        margin-right: 100px;
     }
 
     .download-sounds .application-boxes .premium-box a {
         position: unset;
-        margin-right: 200px;
+        margin-right: 100px;
     }
 
     .download-sounds .application-boxes .basic-box .free-text {
