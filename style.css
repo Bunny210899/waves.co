@@ -704,9 +704,8 @@ footer .bottom-logo ul li a {
 
     .search-bar .below-search .below-search-text {
         font-size: 15px;
-        text-align: left;
-        font-family: poppins;
-        padding-left: 39px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
     }
 
     .youtubers {
