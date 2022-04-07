@@ -243,7 +243,7 @@ body {
     margin: 10px 150px;
     display: flex;
     flex-basis: 30%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .musical {
@@ -322,7 +322,7 @@ body {
     margin: 0px 150px;
     display: flex;
     flex-basis: 30%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .sound-designs {
@@ -398,13 +398,14 @@ body {
 }
 
 .category-link {
-    margin-left: 150px;
+    margin-left: 160px;
     color: #0432DF;
 }
 
-.why-us {
+/* .why-us {
     margin: 50px 0px;
     display: flex;
+    align-items: center;
 }
 
 .why-us-heading {
@@ -419,8 +420,8 @@ body {
 }
 
 .why-us .why-us-cloud {
-   width: 271px;
-   margin-left: 80px;
+    width: 271px;
+    margin-left: 80px;
 }
 
 
@@ -431,7 +432,45 @@ body {
 .why-us span {
     font-size: 20px;
     font-weight: bold;
+} */
+
+.why-us-2 {
+    display: flex;
+    margin-left: 140px;
+    margin-bottom: 90px;
+    padding: 35px;
+    font-size: 14px;
+    
 }
+
+.why-us-head {
+    width: 284px;
+    font-size: 13px;
+}
+
+.why-us-2 span {
+    font-size: 19.8px;
+    font-weight: bold;
+}
+
+.why-us-2 p {
+    font-size: 18px;
+}
+
+.why-us-head strong {
+    color: #F59E00;
+}
+
+.why-us-col-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 95px;
+}
+
+.why-us-item {
+    padding: 25px;
+}
+
 
 .royalty-proper-sounds {
     display: flex;
@@ -466,7 +505,7 @@ body {
 .application-boxes {
     display: flex;
     padding: 50px 280px;
-    
+
 }
 
 .download-sounds h1 {
@@ -655,10 +694,11 @@ footer .bottom-logo ul li a {
 }
 
 @media (max-width:768px) {
-    *{
+    * {
         margin: 0;
         padding: 0;
     }
+
     body {
         margin: 0 auto;
     }
@@ -708,10 +748,7 @@ footer .bottom-logo ul li a {
         background-size: 100%;
     }
 
-    .fa-search:before {
-        display: none;
-    }
-
+    
     .search-bar {
         padding: 10px 0px 99px 0px;
     }
@@ -730,6 +767,7 @@ footer .bottom-logo ul li a {
     .material-icons {
         position: unset;
     }
+
     .search-bar .search-icon .materials-icon {
         top: 10px;
         left: 37px;
@@ -778,6 +816,7 @@ footer .bottom-logo ul li a {
     .youtubers-logo .pixar {
         width: 40%;
     }
+
     .sound-panel .heading-options h1 {
         font-size: 27px;
         margin: 60px 20px;
@@ -851,7 +890,7 @@ footer .bottom-logo ul li a {
     }
 
     .category-songs .category-link {
-        margin-left: -228px;
+        margin-left: -204px;
     }
 
     .category-songs h1 {
@@ -870,7 +909,7 @@ footer .bottom-logo ul li a {
         flex-wrap: wrap;
         margin: 20px 20px 0px 20px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .category-songs .last-six-categories img {
@@ -884,51 +923,22 @@ footer .bottom-logo ul li a {
         margin: 0px 20px 10px 20px;
     }
 
-    .why-us {
+    .why-us-head {
+        padding: 15px;
+    }
 
-        display: block;
-        margin: 90px 0px 0px 20px;
-        font-size: 20px;
+    .why-us-2 {
+       display: block;
+        margin-left: 0px;
+        margin-bottom: 90px;
         padding: 10px;
+        font-size: 14px;
     }
 
-    .why-us .why-us-heading strong {
-        font-size: 20px;
+    .why-us-col-2 {
+        margin: 0px;
+        padding: 0px;
     }
-
-    .why-us .why-us-heading {
-        margin: 0;
-    }
-
-    .why-us .why-us-heading h1 {
-        font-size: 25px;
-        text-align: left;
-    }
-
-    .why-us .why-us-account {
-        padding: 20px 0;
-        margin: 0;
-    }
-
-    .why-us .why-us-cloud {
-        margin: 0;
-    }
-
-    .royalty-proper-sounds {
-        display: block;
-        font-size: 20px;
-        margin: 10px 0px 0px 20px;
-        padding: 10px;
-    }
-
-    .royalty-proper-sounds .royalty {
-        padding: 0px 0 20px 0;
-    }
-
-    .royalty-proper-sounds .proper-sound {
-        padding: 0 0 20px 0;
-    }
-
     .download-sounds {
         margin: 0;
         background-color: #0432DF;
@@ -955,7 +965,7 @@ footer .bottom-logo ul li a {
         border: solid 1px #CDD6F9;
         border-radius: 10px;
         margin-bottom: 50px;
-        padding: 29px;
+        padding: 21px;
         width: 82%;
     }
 
@@ -989,7 +999,7 @@ footer .bottom-logo ul li a {
     }
 
     .testimonials .testimonial-boxes {
-        margin: 20px;
+        margin: 20px 20px 130px 20px;
     }
 
     .testimonials .testimonial-boxes .testimonial-box-one {
@@ -1005,7 +1015,8 @@ footer .bottom-logo ul li a {
     }
 
     footer {
-        padding: 20px 80px;
+        padding: 20px 30px;
+        font-size: 20px;
     }
 
     footer .bottom-logo {
@@ -1014,7 +1025,7 @@ footer .bottom-logo ul li a {
 
     footer .bottom-logo img {
         padding-top: 24px;
-        width: 78%;
+        width: 60%;
     }
 
     footer .bottom-logo ul {
