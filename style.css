@@ -13,7 +13,7 @@ body {
 .search-img-bg {
     background-image: url('images/header-background.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .logo-navbar {
@@ -25,8 +25,7 @@ body {
 }
 
 .logo-navbar img {
-    width: 20%;
-    height: 20%;
+    width: 12%;
 }
 
 .logo-navbar ul {
@@ -91,6 +90,13 @@ body {
     color: white;
 }
 
+.search-bar .below-search .below-search-text {
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 282px;
+}
+
 .below-search {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -99,11 +105,21 @@ body {
 }
 
 .material-icons {
+    position: relative;
     color: gray;
 }
 
+.material-icons .search-font-awesome {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+}
+
 .youtubers {
-    margin: 10px 70px;
+    padding-top: 76px;
+    margin-bottom: 155px;
+    padding-bottom: 54px;
+    background-color: #FAFAFA;
 }
 
 .youtubers h1 {
@@ -121,7 +137,7 @@ body {
 
 .youtubers-logo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
 }
@@ -138,7 +154,7 @@ body {
 .heading-options h1 {
     margin-left: 147px;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .heading-options ul {
@@ -387,10 +403,26 @@ body {
 }
 
 .why-us {
-    margin: 50px 150px;
+    margin: 50px 0px;
     display: flex;
-    justify-content: space-between;
 }
+
+.why-us-heading {
+    width: 284px;
+    margin-left: 150px;
+    font-size: 13px;
+}
+
+.why-us .why-us-account {
+    width: 329px;
+    margin-left: 90px;
+}
+
+.why-us .why-us-cloud {
+   width: 271px;
+   margin-left: 80px;
+}
+
 
 .why-us-heading strong {
     color: #F59E00;
@@ -405,12 +437,12 @@ body {
     display: flex;
     justify-content: right;
     margin-top: 20px;
-    margin-right: 150px;
+    margin-right: 160px;
     margin-bottom: 100px;
 }
 
 .royalty {
-    margin-right: 100px;
+    margin-right: 136px;
 }
 
 .royalty span {
@@ -434,7 +466,7 @@ body {
 .application-boxes {
     display: flex;
     padding: 50px 280px;
-    justify-content: space-between;
+    
 }
 
 .download-sounds h1 {
@@ -490,6 +522,7 @@ body {
     border: solid 1px #CDD6F9;
     border-radius: 10px;
     padding: 20px;
+    margin-left: 170px;
 }
 
 .download-sounds .application-boxes .premium-box h1 {
@@ -504,6 +537,7 @@ body {
 
 .download-sounds .application-boxes .premium-box .start-12-text {
     font-weight: 500;
+    margin-top: 68px;
 }
 
 .download-sounds .application-boxes .premium-box a {
@@ -575,6 +609,10 @@ body {
     color: rgb(146, 146, 146);
 }
 
+.slick-slide img {
+    margin: auto;
+}
+
 footer .bottom-logo {
     display: flex;
     justify-content: space-between;
@@ -597,6 +635,7 @@ footer .bottom-logo p {
 
 footer .bottom-logo ul li {
     list-style: none;
+    margin: 10px 0;
 }
 
 footer .bottom-logo ul li a {
@@ -688,6 +727,9 @@ footer .bottom-logo ul li a {
         margin-top: 0;
     }
 
+    .material-icons {
+        position: unset;
+    }
     .search-bar .search-icon .materials-icon {
         top: 10px;
         left: 37px;
@@ -705,6 +747,7 @@ footer .bottom-logo ul li a {
     .search-bar .below-search .below-search-text {
         font-size: 15px;
         text-align: center;
+        margin: 0;
         font-family: 'Poppins', sans-serif;
     }
 
@@ -853,6 +896,10 @@ footer .bottom-logo ul li a {
         font-size: 20px;
     }
 
+    .why-us .why-us-heading {
+        margin: 0;
+    }
+
     .why-us .why-us-heading h1 {
         font-size: 25px;
         text-align: left;
@@ -860,6 +907,11 @@ footer .bottom-logo ul li a {
 
     .why-us .why-us-account {
         padding: 20px 0;
+        margin: 0;
+    }
+
+    .why-us .why-us-cloud {
+        margin: 0;
     }
 
     .royalty-proper-sounds {
@@ -890,55 +942,40 @@ footer .bottom-logo ul li a {
         font-size: 27px;
     }
 
-    .download-sounds p {
-        padding: 20px;
-    }
-
     .download-sounds .application-boxes {
         display: block;
         justify-content: space-between;
         align-items: center;
-        margin: 0 0 0 25px;
+        margin: 0 0 0 17px;
         padding: 25px 10px 20px 10px;
     }
 
-    .download-sounds .application-boxes .basic-box h1 {
-        padding-left: 17px;
-    }
-
     .download-sounds .application-boxes .basic-box {
+        text-align: left;
         border: solid 1px #CDD6F9;
         border-radius: 10px;
-        padding: 10px;
         margin-bottom: 50px;
-        width: 88%;
-    }
-
-    .download-sounds .application-boxes .premium-box h1 {
-        padding-left: 17px;
+        padding: 29px;
+        width: 82%;
     }
 
 
     .download-sounds .application-boxes .premium-box {
         border: solid 1px #CDD6F9;
         border-radius: 10px;
-        padding: 20px 10px;
-        margin-bottom: 26px;
-        width: 88%;
+        padding: 20px 25px;
+        margin: 0 0 85px 0;
+        width: 80%;
     }
 
     .download-sounds .application-boxes .basic-box a {
         position: unset;
-        margin-right: 175px;
+        margin-right: 155px;
     }
 
     .download-sounds .application-boxes .premium-box a {
         position: unset;
-        margin-right: 175px;
-    }
-
-    .download-sounds .application-boxes .basic-box .free-text {
-        padding: 20px;
+        margin-right: 158px;
     }
 
     .testimonials span {
@@ -949,18 +986,6 @@ footer .bottom-logo ul li a {
     .testimonials h1 {
         font-size: 27px;
         padding: 20px;
-    }
-
-    .testimonials .testimonial-boxes .testimonial-box-one img {
-        margin-left: 37%;
-    }
-
-    .testimonials .testimonial-boxes .testimonial-box-two img {
-        margin-left: 37%;
-    }
-
-    .testimonials .testimonial-boxes .testimonial-box-three img {
-        margin-left: 37%;
     }
 
     .testimonials .testimonial-boxes {
